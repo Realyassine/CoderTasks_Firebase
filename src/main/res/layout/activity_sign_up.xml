@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".signUp"
+    android:background="@drawable/signup">
+
+    <EditText
+        android:id="@+id/txtCname"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Name"
+        android:inputType="textCapWords"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:drawableStart="@drawable/icon_person"
+        android:drawablePadding="8dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/custom_edittext"/>
+
+    <EditText
+        android:id="@+id/txtCemail"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:drawableStart="@drawable/icon_email"
+        android:drawablePadding="8dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/custom_edittext"/>
+
+    <EditText
+        android:id="@+id/txtCpsw"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_edittext"
+        android:contentDescription="f"
+        android:drawableStart="@drawable/icon_red_eye"
+        android:drawablePadding="8dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Password must be at least 6 characters."
+        android:textColor="@color/red"
+        android:textSize="12sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnCreateAccount"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Create account"
+        android:background="@drawable/custom_button"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txtaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You already have an account?"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txtSignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/orange"/>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/blue"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

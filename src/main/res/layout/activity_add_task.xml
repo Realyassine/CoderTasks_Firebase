@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTask"
+    android:background="@drawable/addtask"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:id="@+id/icon_back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/icon_back"
+            android:layout_marginBottom="300dp"/>
+        <EditText
+            android:id="@+id/addNameTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name your task"
+            android:inputType="textCapWords"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/addDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Alert"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Switch
+            android:id="@+id/btnAlert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/DateView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:visibility="invisible">
+        <EditText
+            android:id="@+id/inputDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Date"
+            android:textColor="@color/white"
+            android:inputType="none"
+            android:textColorHint="@color/white"
+            />
+        <ImageView
+            android:id="@+id/btnDate"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/icon_date"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/TimeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:visibility="invisible">
+        <EditText
+            android:id="@+id/inputTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Time"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+           />
+        <ImageView
+            android:id="@+id/btnTime"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/icon_time"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCreateTask"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="@drawable/cust_btn_white"
+        android:layout_marginTop="90dp"/>
+
+
+
+
+</LinearLayout>

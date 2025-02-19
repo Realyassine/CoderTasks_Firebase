@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "54407310365",
+    "project_id": "coder-task",
+    "storage_bucket": "coder-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54407310365:android:9b4be97c9f44adcce76af4",
+        "android_client_info": {
+          "package_name": "com.example.codertask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8sIpG3bn0nrIAbeWr3e7nTSsMHu3jLHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
