@@ -21,8 +21,8 @@ Coder Tasks App is a task management application designed for developers to effi
 ## 📦 Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Realyassine/CoderTask_Firebase.git
-   cd CoderTask_Firebase
+   git clone https://github.com/Realyassine/CoderTasks_Firebase.git
+   cd CoderTasks_Firebase
    ```
 2. Open the project in Android Studio.
 3. Configure Firebase:
