@@ -39,5 +39,5 @@ Coder Tasks App is a task management application designed for developers to effi
 5. Stay productive with an organized workflow.
 
 ## 🔗 Contact
-For any questions or collaboration opportunities, reach out to me on GitHub: 
+For any questions or collaboration opportunities, reach out to me on yassinamcherag02@gmail.com
 
